@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Funeral home</title>
+  </head>
+
+  <body>
+    <nav class="nv">
+      <a class="th" href="thanasis.html">♰ ΘΑΝΑΣΗΣ ♰</a>
+      <ul class="nav-links">
+        <li><a href="khdeies.html">Κηδείες</a></li>
+        <li><a href="apotefrwseis.html">Αποτεφρώσεις</a></li>
+        <li><a href="mnhmoshna.html">Μνημόσυνα</a></li>
+        <li><a href="metafores.html">Μεταφορά και Επαναπατρισμο</a></li>
+        <li class="dropdown">
+          <a href="uphresies.html" class="dropbtn">Υπηρεσίες</a>
+          <ul class="dropdown-content">
+            <li><a href="Dropdowns/Catering.html">Catering</a></li>
+            <li><a href="Dropdowns/Eidh.html">Εκκλησιαστικά είδη</a></li>
+            <li><a href="Dropdowns/Mnhmeia.html">Mνημεία</a></li>
+            <li><a href="Dropdowns/Stolismoi.html">Στολισμοί Εκκλησίας</a></li>
+          </ul>
+        </li>
+        <li><a href="epoikoinwnia.html">Επικοινωνία</a></li>
+      </ul>
+    </nav>
+
+    <div class="contk">
+      <div class="pergigrafhkhdeies">
+        <h3>ΘΑΝΑΣΗΣ ΤΕΛΕΤΕΣ</h3>
+        <h1>Τελετές – Κηδείες</h1>
+        <p>
+          Αναλαμβάνουμε τη διευθέτηση κάθε διαδικασίας για την τέλεση της
+          κηδείας του <br />εκλιπόντος, με την αναγκαία συνέπεια και τον
+          απαιτούμενο επαγγελματισμό.
+          <br />
+          <br />
+          Οργανώνουμε να τελέσουμε την κάθε κηδεία με σεβασμό προς τα
+          θρησκευτικά σας έθιμα, όπως και τις οικονομικές σας δυνατότητες. Η
+          Τέλεση της κηδείας χαρακτηρίζεται από αξιοπρέπεια επαγγελματισμό και
+          συνέπεια και δεν αποτελεί απλός την παροχή μιας υπηρεσίας.
+        </p>
+      </div>
+      <img class="khdeiesimg" src="Images/caskethand1.jpg" />
+    </div>
+
+    <div class="mesebasmo">
+      <h1>Mε αίσθημα σεβασμού για την απώλεια του αγαπημένου σας.</h1>
+      <h3>
+        Με αίσθημα σεβασμού για την απώλεια του αγαπημένου σας προσώπου, θέλουμε
+        να σταθούμε δίπλα σας και να συμβάλλουμε να αποχαιρετίσετε τον άνθρωπό
+        σας με την πρέπουσα <br />αξιοπρέπεια και τιμή που αρμόζει στην
+        περίσταση. <strong>Είμαστε στη διάθεσή σας όλο το 24ωρο,</strong> για να
+        εξυπηρετήσουμε και να διευκολύνουμε το κατά δύναμιν τη δύσκολη αυτή
+        στιγμή. Το άρτια <br />εκπαιδευμένο προσωπικό μας βρίσκεται στη διάθεση
+        σας, για τη καθοδήγηση και καλύτερη δυνατή σας εξυπηρέτηση στις δύσκολες
+        αυτές στιγμές.
+        <br />
+        <br />
+        Οι τιμές για την οργάνωση μίας τελετής κηδείας, προσδιορίζονται σύμφωνα
+        με το εύρος των παρεχόμενων υπηρεσιών & προϊόντων. Πχ. το είδος του
+        φερέτρου, την ποικιλία και το μέγεθος<br />
+        του ανθοστολισμού, την χορωδία κ.λ.π.
+        <br />
+        <br />
+        Ένας ακόμη παράγοντας που διαμορφώνει το τελικό κόστος είναι το
+        κοιμητήριο που θα γίνει η ταφή. Καθώς τα δικαιώματα ταφής και λοιπές
+        χρεώσεις ποικίλουν ανά Κοιμητήριο και Δήμο.
+      </h3>
+    </div>
+    <div class="wrap2">
+      <div class="wrap">
+        <div id="arrow-left" class="arrow"></div>
+
+        <div id="slider">
+          <div class="slide slide1">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide2">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide3">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide4">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide5">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide6">
+            <div class="slide-content"></div>
+          </div>
+        </div>
+        <div id="arrow-right" class="arrow"></div>
+      </div>
+    </div>
+
+    <script>
+      let sliderImages = document.querySelectorAll(".slide"),
+        arrowLeft = document.querySelector("#arrow-left"),
+        arrowRight = document.querySelector("#arrow-right"),
+        current = 0;
+
+      function reset() {
+        for (let i = 0; i < sliderImages.length; i++) {
+          sliderImages[i].style.display = "none";
+        }
+      }
+
+      function startSlide() {
+        reset();
+        sliderImages[current].style.display = "block";
+      }
+
+      function slideLeft() {
+        reset();
+        current = current === 0 ? sliderImages.length - 1 : current - 1;
+        sliderImages[current].style.display = "block";
+      }
+
+      function slideRight() {
+        reset();
+        current = current === sliderImages.length - 1 ? 0 : current + 1;
+        sliderImages[current].style.display = "block";
+      }
+
+      arrowLeft.addEventListener("click", slideLeft);
+      arrowRight.addEventListener("click", slideRight);
+
+      startSlide();
+    </script>
+
+    <div class="olathl">
+      <div class="thanoc">
+        <h2>&#9840;ΘΑΝΑΣΗΣ&#9840;</h2>
+
+        <h3>
+          Το γραφείο τελετών Θανάσης δραστηριοποιείται στο χώρο από το 1990 και
+          τα γραφεία μας βρίσκονται σε Αθήνα και Πελοπόννησο <br />
+          και λειτουργούν 24 ώρες το 24ώρο
+        </h3>
+      </div>
+
+      <h4 class="epik">Επικοινωνία</h4>
+      <div class="thlefwna">
+        <div class="number1">
+          <a href="tel:+6494461709">617092133</a>
+        </div>
+        <div class="number2">
+          <a href="tel:+2111117384">2111117384</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          © Copyright 2025 • Θανάσης Τελετές <br />
+          <br />
+          Περιοχές εξυπηρέτησης: Γλυφάδα, Βούλα, Κηφισιά, Ψυχικό, Αργυρούπολη,
+          Μαρούσι, Χαλάνδρι, Αγία Παρασκευή, Χολαργός, Γαλάτσι, Νέα Ιωνία, Νέα
+          Φιλαδέλφεια, Παγκράτι, Κολωνάκι, Πατήσια, Πετρούπολη αλλά και ολόκληρη
+          την Αθήνα.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
